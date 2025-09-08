@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Root level gitignore
 
 # Dependencies
@@ -12,12 +13,27 @@ dist/
 
 # Environment variables
 .env
+=======
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build
+build/
+
+# Environment variables (keep .env for deployment)
+>>>>>>> 79c9f05621512f115dd577d9cf5267f1e85c23a3
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+<<<<<<< HEAD
 */.env
 */.env.local
+=======
+>>>>>>> 79c9f05621512f115dd577d9cf5267f1e85c23a3
 
 # IDE files
 .vscode/
@@ -31,6 +47,7 @@ Thumbs.db
 
 # Logs
 *.log
+<<<<<<< HEAD
 logs/
 
 # Java/Maven (for springapp)
@@ -47,3 +64,11 @@ target/
 # Temporary files
 *.tmp
 *.temp
+=======
+
+# Coverage
+coverage/
+
+# ESLint cache
+.eslintcache
+>>>>>>> 79c9f05621512f115dd577d9cf5267f1e85c23a3
